@@ -1,0 +1,41 @@
+#maindiv{
+    height: 95svh;
+    width: 212svb;
+    background-color: rgb(6, 92, 253);
+    display: flex;
+}
+
+#div1{
+    background-color:blanchedalmond;
+    height: 95svh;
+    width: 106svb;
+    margin-left: 40svb;
+    clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 50% 100%);
+
+}
+#div2{
+    background-color: rgb(6, 92, 253);
+    color: rgb(248, 233, 157);
+    height: 50px;
+    width: 270px;
+    margin-left: 20%;
+    margin-top: 19%;
+    text-align: center;
+    padding-top: 1%;
+    font-size: larger;
+    font: bold;
+}
+
+h1{
+    text-align:start;
+    padding-top: 40%;
+    padding-right: 20% ;
+    animation: text 3s linear 1 forwards ;
+}
+
+@keyframes text{
+    from{padding-right: 70%;}
+    to{padding-left: 45%;}
+}
+
+

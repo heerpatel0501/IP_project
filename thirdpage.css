@@ -1,0 +1,33 @@
+body{
+    background-color: #fde8e8;
+}
+h1{
+    text-align: center;
+}
+
+div{
+    width: 360px;
+    height: 350px;
+    margin-left: 35%;
+    background-color: rgb(152, 60, 60);
+    border: 2px, solid, black;
+}
+
+#login{
+    padding-top: 2%;
+    padding-left: 7%;
+}
+
+form{
+    padding-left: 5.5%;
+}
+
+button{
+    padding-left: 00%;
+    margin-left: 20%;
+    background-color: rgb(6, 116, 200);
+    color: aliceblue;
+    border-radius: 40%;
+}
+
+

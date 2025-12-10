@@ -1,0 +1,27 @@
+#div1{
+    background-color: brown;
+    height:  570px;
+    width: 1250px;
+}
+
+h3{
+    text-align: center;
+}
+
+#div2{
+    background-color: aliceblue;
+    height: 500px;
+    width: 1100px;
+    padding-left: 2%;
+    padding-top: 2%;
+    margin-left: 5%;
+
+}
+button{
+    background-color: brown;
+}
+#button{
+    background-color:brown;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
