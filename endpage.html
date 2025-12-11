@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="endpage.css">
+    <script src="endpage.js"></script>
 </head>
 <body>
 <div id="page">
 
-    <div id="set">
+    <div id="set"> 
     <div id="clock">
         <h3> Start Time : </h3>
         <div id="start">
@@ -17,7 +18,7 @@
         <h3> End Time : </h3>
         <div id="end">
             <input type="time" id="endTime"> </div>
-
+        <button id="savebtn"> Save </button>
     </div>
     
     <div id="calendar">
@@ -26,7 +27,7 @@
     </div>
     <br>
     <div id="days">
-        <h3>DAYS :</h3>
+    <h3>DAYS :</h3>
         <label for="sun"><input type="checkbox" id="sun"> SUN </label> 
         <label for="mon"><input type="checkbox" id="mon"> MON </label> 
         <label for="tue"><input type="checkbox" id="tue"> TUE </label> 
@@ -36,6 +37,19 @@
         <label for="sat"><input type="checkbox" id="sat"> SAT </label>
     </div>
     
+    <br> 
+    <button onclick="showTable()"> Show Time Table</button>
+    <table id="timeTable" style="margin-top:20px; display:none;">
+        <tr>
+            <th>Start Time</th>
+            <th>End Time</th>
+        </tr>
+        <tr>
+            <td id="startOut"></td>
+            <td id="endOut"></td>
+        </tr>
+    </table>
+
 </div>
 
 </body>

@@ -12,7 +12,6 @@
 }
 body{
     background-color: rgb(23, 61, 83);
-    
 }
 
 h3{
@@ -29,7 +28,7 @@ h3{
     border: 2px, solid, black;  
 }
 #start {
-    height: 50px;
+    height: 38px;
     width: 600px;
     background-color: rgb(237, 231, 231);
     margin-left: 15px;
@@ -38,7 +37,7 @@ h3{
 }
 
 #end {
-    height: 50px;
+    height: 38px;
     width: 600px;
     background-color: rgb(237, 231, 231);
     margin-left: 15px;
