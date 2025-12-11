@@ -1,5 +1,6 @@
 body{
     background-color: #fde8e8;
+    font-family: Arial, Helvetica, sans-serif;
 }
 h1{
     text-align: center;
@@ -9,7 +10,7 @@ div{
     width: 360px;
     height: 350px;
     margin-left: 35%;
-    background-color: rgb(152, 60, 60);
+    background-color: rgb(225, 96, 96);
     border: 2px, solid, black;
 }
 
