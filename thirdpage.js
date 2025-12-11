@@ -21,7 +21,7 @@ function login(){
 
     if (userInput === window.usernameCorrect && passInput === passwordCorrect ){
         alert("👍 Login Succesful!");
-        window.location.href="endpage.html";
+        window.location.href= "endpage.html";
     }
     else{
         alert("❌ Something went wrong. Try again! ");
