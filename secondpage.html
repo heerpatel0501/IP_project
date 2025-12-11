@@ -20,12 +20,26 @@
                 <li>EVERY ACTIVITY YOU CAN CHECK OUT HOW ARE YOU DOING…</li><br>
             </ol>   
             <label for="radio">
-            <input type="radio" name="click" value="accept" id="radio" > 
-                I read all things or I accept this.
+            <input type="radio" name="click" value="accept" id="accept" > 
+                I accept all terms.
             </input></label>
-            <button> <a href="thirdpage.html" id="button"> Accept </a></button>
+
+            <button id="acceptbtn">  Accept </button>
         </div>
     </div>
+
+    <script> 
+        document.getElementById("acceptbtn").onclick = function(){
+            let accept = document.getElementById("accept");{
+                if (accept.checked){
+                    window.location.href ="thirdpage.html";
+                }
+                else {
+                    alert("Please accept the rules before continuing!");
+                }
+            }
+        };
+    </script>
     
 </body>
 </html>
