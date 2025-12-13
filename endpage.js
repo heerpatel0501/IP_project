@@ -67,7 +67,7 @@ function markDone(link) {
 function markIncomplete(link) {
     let row = link.parentElement.parentElement;
     row.style.backgroundColor = "#f82e2eff";
-    alert("Please do your work properly. All power is within you 💪");
+    alert("Please do your work properly. All power within you 💪");
 }
 
 // ✏ EDIT
