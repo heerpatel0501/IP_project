@@ -35,7 +35,18 @@
         <p>Every incompleted task must give you an alert to complete your task. </p>
         <br>
 
-        <button> <a href="first.html"> Let's Goo!! </a></button>
+        <label for id="next">
+        <button id="next" onclick="start()">
+            Start
+        </button>
+        </label>
+
+        <script>
+            document.getElementById("next").onclick = function(){
+                window.location.href="first.html";
+            }
+        </script>
+
         <br>
         <h4 style="text-align: center;"><b>HOPE THIS WEBSITE HELP YOU TO ACHIVE YOU DAILY GOALS.</b></h4>
     </main>
