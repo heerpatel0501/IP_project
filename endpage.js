@@ -45,8 +45,8 @@ function addTask() {
     // 🟡 Goal cell (Done / Incomplete)
     let goalCell = row.insertCell(4);
     goalCell.innerHTML = `
-        <a href="#" onclick="markDone(this)">Done</a> |
-        <a href="#" onclick="markIncomplete(this)">Incomplete</a>
+        <button class="doneBtn" onclick="markDone(this)">Done</button>
+        <button class="inBtn" onclick="markIncomplete(this)">Incomplete</button>
     `;
 
     // ✏ Edit button
@@ -66,7 +66,7 @@ function markDone(link) {
 // ❌ INCOMPLETE
 function markIncomplete(link) {
     let row = link.parentElement.parentElement;
-    row.style.backgroundColor = "#ff4949ff";
+    row.style.backgroundColor = "#f82e2eff";
     alert("Please do your work properly. All power is within you 💪");
 }
 
