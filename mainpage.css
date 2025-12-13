@@ -1,5 +1,6 @@
 body{
     font-family: Arial, Helvetica, sans-serif; 
+    background-color: rgb(201, 241, 249);
 }
 h1{
     text-align: center;
@@ -26,6 +27,8 @@ footer{
 button{
     margin-left: 550px;
     background-color: rgb(25, 227, 25);
+    font-size: medium;
+    font-weight: bold;
 }
 .last{
     width: 150px;
