@@ -1,16 +1,18 @@
+body{
+    background-color: rgb(23, 61, 83);
+}
+
 #page{
     height: 100svh;
     width: 210svb;
     background-color: rgb(202, 240, 248);
+    padding-left: 5px;
 }
 #set{
     display: flex;
     margin-left: 3px;
     font-family: Verdana;
     align-items: start;
-}
-body{
-    background-color: rgb(23, 61, 83);
 }
 
 h3{
@@ -49,8 +51,8 @@ h3{
     font-family: Verdana;
 }
 
-#tablebtn{
-    background-color: rgb(3, 4, 94);
-    color: white;
-    margin-left: 500px;
+
+table{
+    /* table-layout: 2px, solid,black; */
+    
 }
