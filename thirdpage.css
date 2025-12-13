@@ -1,16 +1,13 @@
 body{
-    background-color: #fde8e8;
+    background-color: rgb(240, 244, 248);
     font-family: Arial, Helvetica, sans-serif;
 }
-h1{
-    text-align: center;
-}
-
 div{
-    width: 360px;
-    height: 350px;
-    margin-left: 35%;
-    background-color: rgb(239, 101, 101);
+    width: 350px;
+    height: 360px;
+    margin-left: 36%;
+    margin-top: 3%;
+    background-color: rgb(158, 212, 222);
     border: 2px, solid, black;
 }
 
@@ -26,9 +23,12 @@ form{
 button{
     padding-left: 00%;
     margin-left: 20%;
-    background-color: rgb(6, 116, 200);
-    color: aliceblue;
+    background-color: rgb(5, 62, 74);
+    color: rgb(255, 255, 255);
     border-radius: 40%;
 }
 
+h1{
+    text-align: center;
+}
 
