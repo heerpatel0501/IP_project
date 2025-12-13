@@ -6,9 +6,10 @@
         table {
             border-collapse: collapse;
             width: 100%;
+            background-color: rgb(7, 59, 76) ;
         }
         th, td {
-            border: 1px solid black;
+            border: 1px solid rgb(255, 255, 255);
             padding: 8px;
             text-align: center;
         }
@@ -17,6 +18,10 @@
             margin: 3px;
             padding: 5px 10px;
             cursor: pointer;
+        }
+        body{
+            background-color: rgb(17, 138, 178);
+            color:white;
         }
 
     </style>
@@ -38,8 +43,8 @@
 <label>Task Name:</label>
 <input type="text" id="taskName"><br><br>
 
-<label>Status :</label>
-<input type="text" id="goal"><br><br>
+<label> <p style="display: none;">Status :</p></label>
+<input id="goal" style="display: none;"><br><br>
 
 <button onclick="addTask()">Add Task</button>
 
@@ -54,6 +59,7 @@
             <th>End Time</th>
             <th>Task</th>
             <th>Goal</th>
+            <th>Edit</th>
         </tr>
     </thead>
     <tbody id="taskTable">
