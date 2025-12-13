@@ -7,7 +7,7 @@ h1{
 
 footer{
     background-color: rgb(19, 41, 61);
-    color: white;
+    color: rgb(255, 255, 255);
     height: 350px;
     margin-top: 50px;
 }
@@ -22,5 +22,9 @@ a{
 
 #end{
     padding-top: 280px;
-    padding-left: 1160px;
+    padding-left: 996px;
+}
+
+pre{
+    font-family: Arial, Helvetica, sans-serif;
 }

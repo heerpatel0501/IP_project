@@ -10,7 +10,6 @@ body{
 h3{
     text-align: center;
 }
-
 #div2{
     background-color: aliceblue;
     height: 500px;
@@ -18,7 +17,6 @@ h3{
     padding-left: 2%;
     padding-top: 2%;
     margin-left: 5%;
-
 }
 button{
     background-color: brown;
