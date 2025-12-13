@@ -6,7 +6,7 @@ function addTask() {
     let task = document.getElementById("taskName").value;
     let goal = document.getElementById("goal").value;
 
-    if (!start || !end || !number || !task || !goal) {
+    if (!start || !end || !number || !task ) {
         alert("Please fill all fields");
         return;
     }
@@ -59,14 +59,14 @@ function addTask() {
 // ✅ DONE
 function markDone(link) {
     let row = link.parentElement.parentElement;
-    row.style.backgroundColor = "lightgreen";
+    row.style.backgroundColor = "green";
     alert("Congratulations 🎉 You did one more step toward your dream!");
 }
 
 // ❌ INCOMPLETE
 function markIncomplete(link) {
     let row = link.parentElement.parentElement;
-    row.style.backgroundColor = "#ffcccc";
+    row.style.backgroundColor = "#ff4949ff";
     alert("Please do your work properly. All power is within you 💪");
 }
 

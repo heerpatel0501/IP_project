@@ -23,32 +23,35 @@
             background-color: rgb(17, 138, 178);
             color:white;
         }
+        .box{
+            border: 1.3px, solid, rgb(7, 59, 76);
+        }
 
     </style>
 </head>
 <body>
 
-<h2>Daily Task Planner</h2>
+<h2 style="text-align: center;"><u>Daily Task Planner</u></h2>
 
 <!-- Inputs -->
 <label>Start Time:</label>
-<input type="time" id="startTime"><br><br>
+<input type="time" id="startTime" class="box"><br><br>
 
 <label>End Time:</label>
-<input type="time" id="endTime"><br><br>
+<input type="time" id="endTime" class="box" ><br><br>
 
 <label>Task Number:</label>
-<input type="number" id="taskNumber"><br><br>
+<input type="number" id="taskNumber" class="box"><br><br>
 
 <label>Task Name:</label>
-<input type="text" id="taskName"><br><br>
+<input type="text" id="taskName" class="box"><br><br>
 
 <label> <p style="display: none;">Status :</p></label>
-<input id="goal" style="display: none;"><br><br>
+<input id="goal" style="display: none;"><br>
 
-<button onclick="addTask()">Add Task</button>
+<button onclick="addTask()" class="box">Add Task</button>
 
-<br><br>
+<br><br><br>
 
 <!-- Table -->
 <table>
